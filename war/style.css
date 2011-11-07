@@ -2,3 +2,5 @@ body { font-family: arial; }
 
 .questionPanel { margin: 10px; }
 .answerField { margin: 10px }
+
+.catSlot { width: 30%; min-height: 180px; border: 1px solid #ddd; padding: 3px 5px; float: left}

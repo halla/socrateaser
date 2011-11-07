@@ -67,7 +67,7 @@
       <jvmarg value="-Xmx512M"/>
       <jvmarg value="-Dx.gwt.astBuilder=true"/>
       <arg value="-startupUrl"/>
-      <arg value="Hello.html"/>
+      <arg value="Socrateaser.html"/>
       <arg line="${gwt.dev.args}"/>
       <arg value="code.Socrateaser"/>
     </java>
@@ -83,8 +83,7 @@
     <delete dir="war/WEB-INF/classes" failonerror="false" />
     <delete dir="war/WEB-INF/jribble" failonerror="false" />
     <delete dir="war/WEB-INF/gwtdlx" failonerror="false" />
-    <delete dir="war/hello" failonerror="false" />
-    <delete dir="war/showcase" failonerror="false" />
+    <delete dir="war/socrateaser" failonerror="false" />
     <delete dir="gwt-unitCache" failonerror="false" />
     <delete dir="jribbleCache" failonerror="false" />
     <delete dir="war/jribbleCache" failonerror="false" />
